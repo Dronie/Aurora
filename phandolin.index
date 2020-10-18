@@ -4,7 +4,7 @@
 		<name>Phandolin</name>
 		<description>The content from Chris New's 'Heroes of Phandolin' games.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="phandolin.index" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandolin.index" />
 		</update>
 	</info>
