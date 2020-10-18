@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.2">
+			<file name="source.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/source.xml" />
+		</update>
+	</info>
+	<element name="Heroes of Phandolin" type="Source" source="Phandolin" id="ID_CN_SOURCE_HEROES_OF_PHANDOLIN">
+		<description>
+			<![CDATA[<p><strong>A campaign created by Chris New.</strong></p><p>Jamie is a wasteman</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">HOP</set>
+			<set name="url">http://dnd.chrisnew.co.uk</set>
+			<set name="image">https://raw.githubusercontent.com/Dronie/Aurora/master/phandolin.jpg</set>
+			<set name="errata">https://media.wizards.com/2018/dnd/downloads/DMG-Errata.pdf</set>
+			<set name="author" abbreviation="CN" url="http://dnd.chrisnew.co.uk">Chris New</set>
+			<set name="official">false</set>
+			<set name="core">false</set>
+			<set name="release">20201019</set>
+		</setters>
+	</element>
+</elements>

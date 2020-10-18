@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Heroes of Phandolin</name>
+		<description>A campaign created by Chris New.</description>
+		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
+		<update version="0.1">
+			<file name="heroes_of_phandolin.index" url="https://raw.githubusercontent.com/Dronie/Aurora/master/heroes_of_phandolin.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/source.xml" />
+		<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/chris_items.xml" />
+	</files>
+</index>
