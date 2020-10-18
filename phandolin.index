@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Phandolin</name>
+		<description>The content from Chris New's 'Heroes of Phandolin' games.</description>
+		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
+		<update version="0.0.1">
+			<file name="phandolin.index" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandolin.index" />
+		</update>
+	</info>
+	<files>
+		<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/chris_items.xml" />
+	</files>
+</index>
