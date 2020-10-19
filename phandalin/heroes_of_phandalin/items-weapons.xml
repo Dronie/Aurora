@@ -9,7 +9,7 @@ When adding items:
 		<name>Heroes of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -36,13 +36,56 @@ When adding items:
 		</setters>
 	</element>
 
+	<element name="Poison Dart Gauntlet" type="Weapon" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_WEAPON_POISON_DART_GAUNTLET">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+		<description>
+			<p>This gauntlet has three small openings set into a raised piece on the top. It contains three poison darts that can be fired by pressing a small button on the underside of the gauntlet. The craftmanship is such that this can be operated with one hand. You may only fire this weapon if you have a free hand to press the button. For example if you are wielding two melee weapons then you are not able to fire.</p>
+			<p><b>Poison:</b> On a hit a creature must make a DC13 Constitution saving throw, on a failed save the creature takes 1d8 poison damage and is Poisoned.</p>
+			<p><b>Reloading:</b> Once all three shots have been fire you must spend 1 whole turn reloading. If you are within melee range you are left open for Opportunity Attack.</p>
+		</description>
+		<setters>
+			<set name="keywords">gauntlet, poison</set>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="range">30/120</set>
+			<set name="rarity">artifact</set>
+			<set name="type" addition="gauntlet">Weapon</set>
+			<set name="attunement">false</set>
+			<set name="damage" type="piercing">1d6</set>
+		</setters>
+	</element>
+
+	<element name="Hawkmoon Longbow" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_HAWKMOON_LONGBOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+		<description>
+			<p>This bow is covered in a feather motif made of ornately inlaid silver filaments that seem to shimmer in the light, when exposed to moonlight they glow with an inner radiance.</p>
+			<p>This acts as a +1 longbow and when attuned on a roll of 19 or 20 does an additional 1d6 radiant damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">longbow, bow</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="range">150/600</set>
+			<set name="slot">twohand</set>
+			<set name="rarity">rare</set>
+			<set name="type" addition="bow">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">true</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_BOWS</set>
+		</setters>
+	</element>
+
 	<element name="Smoke" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_WEAPON_SMOKE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p>This magical hand axe was forged as part of a pair known as Smoke and Fire. Created from quicksilver by Gnomish Artificers, it has grey crystal shards embedded in the blade. After repeated ignition the blade becomes covered in soot so that only the crystal shards shine through. Whether one or both weapons is owned attunement only takes up one slot.</p>
-			<p><b>Weighted</b>. Made of quicksilver, the balance of this weapon shifts as you use it; allowing it to swing faster and hit harder. You gain +1 bonus to attack and damage rolls made with this magic weapon.</p>
-			<p><b>Ignite</b>. When attuned, and if both Smoke and Fire are equipped, you may use a bonus action to strike them together and ignite them. Once ignited they deal and additional 1d4 fire damage.</p>
-			<p><b>Conceal</b>. When attuned, this weapon has two charges that it regains each day at sunset. Using an action you can expend one of the charges to cast the spell Fog Cloud on this weapon. The cloud will remain up to and hour and remains centered on your weapon for the duration.</p>
+			<p><b>Weighted:</b> Made of quicksilver, the balance of this weapon shifts as you use it; allowing it to swing faster and hit harder. You gain +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p><b>Ignite:</b> When attuned, and if both Smoke and Fire are equipped, you may use a bonus action to strike them together and ignite them. Once ignited they deal and additional 1d4 fire damage.</p>
+			<p><b>Conceal:</b> When attuned, this weapon has two charges that it regains each day at sunset. Using an action you can expend one of the charges to cast the spell Fog Cloud on this weapon. The cloud will remain up to and hour and remains centered on your weapon for the duration.</p>
 		</description>
 		<setters>
 			<set name="keywords">handaxe</set>
@@ -65,9 +108,9 @@ When adding items:
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p>This magical hand axe was forged as part of a pair known as Smoke and Fire. Created from quicksilver by Gnomish Artificers, it has grey crystal shards embedded in the blade. After repeated ignition the blade becomes covered in soot so that only the crystal shards shine through. Whether one or both weapons is owned attunement only takes up one slot.</p>
-			<p><b>Weighted</b>. Made of quicksilver, the balance of this weapon shifts as you use it; allowing it to swing faster and hit harder. You gain +1 bonus to attack and damage rolls made with this magic weapon.</p>
-			<p><b>Ignite</b>. When attuned, and if both Smoke and Fire are equipped, you may use a bonus action to strike them together and ignite them. Once ignited they deal and additional 1d4 fire damage.</p>
-			<p><b>Reveal</b>. When attuned, this weapon has two charges that it regains each day at sunrise. Using an action you can expend one of the charges to cast the spell light on this weapon. The light will remain up to and hour and remains centered on your weapon for the duration.</p>
+			<p><b>Weighted:</b> Made of quicksilver, the balance of this weapon shifts as you use it; allowing it to swing faster and hit harder. You gain +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p><b>Ignite:</b> When attuned, and if both Smoke and Fire are equipped, you may use a bonus action to strike them together and ignite them. Once ignited they deal and additional 1d4 fire damage.</p>
+			<p><b>Reveal:</b> When attuned, this weapon has two charges that it regains each day at sunrise. Using an action you can expend one of the charges to cast the spell light on this weapon. The light will remain up to and hour and remains centered on your weapon for the duration.</p>
 		</description>
 		<setters>
 			<set name="keywords">handaxe</set>
