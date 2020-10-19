@@ -4,7 +4,7 @@
 		<name>Heroes of Phandalin</name>
 		<description>Items discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandolin/heroes_of_phandolin/chris_items.xml"/>
 		</update>
 	</info>
@@ -35,6 +35,21 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="type">Axe</set>
+			<set name="rarity">Artifact</set>
+			<set name="damage">0d4</set>
+		</setters>
+	</element>
+
+	<element name="Sword of Testing" type="Magic Item" source="Heroes of Phandolin" id="ID_CN_DMG_MAGIC_ITEM_AXE_OF_TESTING">
+		<description>
+			<p>The mighty Axe of Testing consists of nothing but a strange collection of bleeps and bloops.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Sword</set>
 			<set name="rarity">Artifact</set>
 			<set name="damage">0d4</set>
 		</setters>
