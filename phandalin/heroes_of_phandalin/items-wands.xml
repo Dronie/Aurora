@@ -10,7 +10,7 @@ When adding items:
 		<name>Heroes of Phandalin</name>
 		<description>Wands discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="items-wands.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-wands.xml"/>
 		</update>
 	</info>
@@ -28,11 +28,8 @@ When adding items:
 			<set name="rarity">Uncommon</set>
 			<set name="charges">7</set>
 		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
+		</rules>
 	</element>
-
-	<append id="ID_CN_DMG_MAGIC_ITEM_WAND_OF_BURNING_HANDS">
-  		<rules>
-    		<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
-  		</rules>
-	</append>
 </elements>
