@@ -4,7 +4,7 @@
 		<name>Heroes of Phandalin</name>
 		<description>Items discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandolin/heroes_of_phandolin/chris_items.xml"/>
 		</update>
 	</info>
