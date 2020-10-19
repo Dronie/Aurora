@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/chris_items.xml" />
+		<file name="heroes_of_phandolin.index" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandolin/heroes_of_phandolin.index" />
 	</files>
 </index>
