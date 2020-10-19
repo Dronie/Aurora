@@ -4,12 +4,13 @@
 		<name>Heroes of Phandalin</name>
 		<description>A campaign created by Chris New.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="heroes_of_phandalin.index" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin.index" />
 		</update>
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/source.xml" />
-		<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/chris_items.xml" />
+		<file name="items-wands.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-wands.xml" />
+		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml" />
 	</files>
 </index>

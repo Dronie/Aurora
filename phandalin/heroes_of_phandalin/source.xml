@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="source.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/pahdnolin/heroes_of_phandalin/source.xml" />
 		</update>
 	</info>
-	<element name="Heroes of Phandalin" type="Source" source="Phandalin" id="ID_CN_SOURCE_HEROES_OF_PHANDaLIN">
+	<element name="Heroes of Phandalin" type="Source" source="Phandalin" id="ID_CN_SOURCE_HEROES_OF_PHANDALIN">
 		<description>
 			<![CDATA[<p><strong>A campaign created by Chris New.</strong></p><p>Jamie is a wasteman</p>]]>
 		</description>

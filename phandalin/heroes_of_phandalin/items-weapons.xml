@@ -7,41 +7,27 @@ When adding items:
 <elements>
 	<info>
 		<name>Heroes of Phandalin</name>
-		<description>Items discovered by the Heroes of Phandalin on their adventures.</description>
+		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.5">
-			<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/chris_items.xml"/>
+		<update version="0.0.6">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
-
-	<element name="Wand of Burning Hands" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_ITEM_WAND_OF_BURNING_HANDS">
-		<description>
-			<p>This wand has 7 charges. While holding it, you can expend 1 charge as an action to cast the <em>burning hands</em> spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</p>
-			<p>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
-		</description>
-		<setters>
-			<set name="category">Wands</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="1">1 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="type">Wand</set>
-			<set name="rarity">Uncommon</set>
-			<set name="charges">7</set>
-		</setters>
-	</element>
 
 	<element name="Axe of Testing" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_ITEM_AXE_OF_TESTING">
 		<description>
 			<p>The mighty Axe of Testing consists of nothing but a strange collection of bleeps and bloops.</p>
 		</description>
 		<setters>
+			<set name="keywords">axe, test</set>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="slot">onehand</set>
-			<set name="type">Axe</set>
 			<set name="rarity">Artifact</set>
+			<set name="type" addition="any axe">Weapon</set>
 			<set name="damage">0d4</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_AXES</set>
 		</setters>
 	</element>
 
@@ -50,13 +36,15 @@ When adding items:
 			<p>The mighty Sword of Testing consists of nothing but a strange collection of bleeps and bloops.</p>
 		</description>
 		<setters>
+			<set name="keywords">sword, test</set>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="slot">onehand</set>
-			<set name="type">Sword</set>
 			<set name="rarity">Artifact</set>
+			<set name="type" addition="any sword">Weapon</set>
 			<set name="damage">0d4</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
 		</setters>
 	</element>
 </elements>
