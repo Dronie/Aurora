@@ -9,7 +9,7 @@ When adding items:
 		<name>Heroes of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -61,7 +61,7 @@ When adding items:
 		</setters>
 	</element>
 
-	<element name="Fire" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_WEAPON_SMOKE">
+	<element name="Fire" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_WEAPON_FIRE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p>This magical hand axe was forged as part of a pair known as Smoke and Fire. Created from quicksilver by Gnomish Artificers, it has grey crystal shards embedded in the blade. After repeated ignition the blade becomes covered in soot so that only the crystal shards shine through. Whether one or both weapons is owned attunement only takes up one slot.</p>
