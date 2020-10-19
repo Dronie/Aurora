@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+When adding items:
+	 - Add a new ID for the item
+	 - Increment the version number 
+-->
 <elements>
 	<info>
 		<name>Heroes of Phandalin</name>
 		<description>Items discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.4">
-			<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandolin/heroes_of_phandolin/chris_items.xml"/>
+		<update version="0.0.5">
+			<file name="chris_items.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/chris_items.xml"/>
 		</update>
 	</info>
 
@@ -25,7 +30,7 @@
 		</setters>
 	</element>
 
-	<element name="Axe of Testing" type="Magic Item" source="Heroes of Phandolin" id="ID_CN_DMG_MAGIC_ITEM_AXE_OF_TESTING">
+	<element name="Axe of Testing" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_ITEM_AXE_OF_TESTING">
 		<description>
 			<p>The mighty Axe of Testing consists of nothing but a strange collection of bleeps and bloops.</p>
 		</description>
@@ -40,7 +45,7 @@
 		</setters>
 	</element>
 
-	<element name="Sword of Testing" type="Magic Item" source="Heroes of Phandolin" id="ID_CN_DMG_MAGIC_ITEM_SWORD_OF_TESTING">
+	<element name="Sword of Testing" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_ITEM_SWORD_OF_TESTING">
 		<description>
 			<p>The mighty Sword of Testing consists of nothing but a strange collection of bleeps and bloops.</p>
 		</description>
