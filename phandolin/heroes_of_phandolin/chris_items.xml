@@ -40,7 +40,7 @@
 		</setters>
 	</element>
 
-	<element name="Sword of Testing" type="Magic Item" source="Heroes of Phandolin" id="ID_CN_DMG_MAGIC_ITEM_AXE_OF_TESTING">
+	<element name="Sword of Testing" type="Magic Item" source="Heroes of Phandolin" id="ID_CN_DMG_MAGIC_ITEM_SWORD_OF_TESTING">
 		<description>
 			<p>The mighty Axe of Testing consists of nothing but a strange collection of bleeps and bloops.</p>
 		</description>
