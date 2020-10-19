@@ -10,7 +10,7 @@ When adding items:
 		<name>Heroes of Phandalin</name>
 		<description>Wands discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="items-wands.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-wands.xml"/>
 		</update>
 	</info>
@@ -22,10 +22,12 @@ When adding items:
 		</description>
 		<setters>
 			<set name="category">Wands</set>
+			<set name="attack">3d6</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="1">1 lb.</set>
 			<set name="type">Wand</set>
 			<set name="slot">onehand</set>
+			<set name="range">Self (15-foot cone)</set>
 			<set name="rarity">Uncommon</set>
 			<set name="charges">7</set>
 		</setters>
@@ -33,4 +35,47 @@ When adding items:
 			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
 		</rules>
 	</element>
+
+	<append id="ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_MAGIC_DETECTION">
+  		<rules>
+    		<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC"/>
+  		</rules>
+	</append>
+
+	<append id="ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_MAGIC_MISSILES">
+  		<rules>
+    		<grant type="Spell" id="ID_PHB_SPELL_MAGIC_MISSILE"/>
+  		</rules>
+	</append>
+
+	<append id="ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_WEB">
+  		<rules>
+    		<grant type="Spell" id="ID_PHB_SPELL_WEB"/>
+  		</rules>
+	</append>
+
+	<append id="ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_BINDING">
+  		<rules>
+    		<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON"/>
+  		</rules>
+	</append>
+
+	<append id="ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_FIREBALLS">
+  		<rules>
+    		<grant type="Spell" id="ID_PHB_SPELL_FIREBALL"/>
+  		</rules>
+	</append>
+
+	<append id="ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_LIGHTNING_BOLTS">
+  		<rules>
+    		<grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT"/>
+  		</rules>
+	</append>
+
+	<append id="ID_WOTC_DMG_MAGIC_ITEM_WAND_OF_POLYMORPH">
+  		<rules>
+    		<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH"/>
+  		</rules>
+	</append>
 </elements>
