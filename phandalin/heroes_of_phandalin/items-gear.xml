@@ -23,7 +23,7 @@
 	</element>
 
     <element name="Celestial Nighthawk Circlet" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_ITEM_CELESTIAL_NIGHTHAWK_CIRCLET">
-		<suports>Ranger</supports>
+		<supports>Ranger</supports>
 		<description>
 			<p>This circlet is made of wood carved with feathers, a small stone in the shape of a crescent moon is inlaid over the forhead.</p>
 			<p class="indent"><strong>Once per day</strong> you can concentrate on making a ranged attack. When you do, the moon begins to glow with a dim light. The magic imbues your weapon with Celestial energy and <strong>turns any hit into a critical hit</strong>.</p>
