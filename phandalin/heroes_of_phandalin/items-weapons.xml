@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.13">
+		<update version="0.0.14">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -71,7 +71,7 @@ When adding items:
 			<set name="range">150/600</set>
 			<set name="slot">twohand</set>
 			<set name="rarity">rare</set>
-			<set name="type" addition="bow">Weapon</set>
+			<set name="type" addition="longbow">Weapon</set>
 			<set name="enhancement">1</set>
 			<set name="attunement">true</set>
 			<set name="damage" type="piercing">1d8</set>
@@ -196,6 +196,7 @@ When adding items:
 			<set name="damage" type="piercing">1d6</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</set>
 			<set name="weapon">Shortbow</set>
+			<set name="type" addition="shortbow">Weapon</set>
 		</setters>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" />
