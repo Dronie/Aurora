@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -156,13 +156,16 @@ When adding items:
 			<p class="indent">Instead of targeting a singular foe, the character may instead choose to strike the ground, creating a miniature earthquake. All creatures on the ground within 10 feet of the wielder must succeed on a dexterity saving throw of DC12 + the character's strength modifier or take 1d6 + the character's strength modifier in damage. All targets affected by the damage must then roll a Constitution save DC equal to the damage dealt or be knocked prone.</p>
 		</description>
 		<setters>
+			<set name="keywords">warhammer</set>
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="bludgeoning">1d8</set>
 			<set name="versatile">1d10</set>
+			<set name="type" addition="warhammer">Weapon</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
 			<set name="category">Magic Weapons</set>
 			<set name="rarity">very rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_WARHAMMERS</set>
 		</setters>
 	</element>
 
@@ -175,14 +178,14 @@ When adding items:
 			<p class="indent">This bow includes two different bow strings, one is a glistening silver thread that thrums with magical energy. The other is a crimson red and always feels warm to the touch. <strong>You may only use one action to change the bow string</strong>.</p>
 			<p class="indent"><strong><em>Silver String</em>:</strong> Whilst this string is in use the crystals inlaid in the grip begin to glow, one has a shimmering golden hue, the other has a grey foggy apperance.</p>
 			<p class="indent"><em>Conceal</em>: When attuned, this weapon has two charges that it regains each day at <strong>sunset</strong>. Using your bonus action you can press the grey crystal, this activates one of the charges, when you next fire an arrow it becomes chraged with the spell <em>fog cloud</em>. On impact the arrow releases the spell. The cloud will remain up to an hour and is centered on the point of impact.</p>
-			<p class="indent"><em>Reveal</em>: When attuned, this weapon has two charges that it regains each day at <strong>sinrise</strong>. Using your bonus action you can press the grey crystal, this activates one of the charges, when you next fire an arrow it becomes chraged with the spell <em>sunlight</em>. On impact the arrow releases the spell. The light will remain up to an hour and is centered on the point of impact.</p>
+			<p class="indent"><em>Reveal</em>: When attuned, this weapon has two charges that it regains each day at <strong>sinrise</strong>. Using your bonus action you can press the grey crystal, this activates one of the charges, when you next fire an arrow it becomes chraged with the spell <em>daylight</em>. On impact the arrow releases the spell. The light will remain up to an hour and is centered on the point of impact.</p>
 			<p class="indent"><strong><em>Crimson String</em>:</strong> Whilst this string is in use the crystals fade and the bow becoms hot to the touch. Any arrow fired from this weapon immediately ignites and deals an additional <em>1d4 fire damage</em>.</p>
 			<p class="indent"><strong><em>Attunement</em></strong></p>
 			<p class="indent">You must spent at least 1 hour getting to this weapon, this can be done during either a short or long rest. If you are separated from this weapon by more than 100ft. or for more that 1 day your attunement is lost.</p>
 			<p class="indent">Until you are attuned with this weapon, it behaves like a standard +1 shortbow.</p>
 		</description>
 		<setters>
-			<set name="category">Weapons</set>
+			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">25</set>
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">twohand</set>
@@ -191,9 +194,10 @@ When adding items:
 			<set name="attunement">true</set>
 			<set name="damage" type="piercing">1d6</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_BOWS</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_SUNRISE" />
+			<grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" />
 			<grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" />
 		</rules>
 	</element>

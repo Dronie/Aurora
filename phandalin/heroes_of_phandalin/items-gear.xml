@@ -4,23 +4,10 @@
         <name>Wondrous Items of Phandalin</name>
         <description>Trinkets and misc items discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="items-gear.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/items-gear.xml" />
         </update>
     </info>
-    
-    <element name="Potion of Heroism" type="Item" source="Heroes of Phandalin" id="ID_CN_HOP_ITEM_POTION_OF_HEROISM">
-		<description>
-            <p>This blue potion bubbles and steams as if boiling.</p>
-			<p class="indent">Upon consumption, you gain 10 temporary hit points and fall under the effects of the <em>bless</em> spell. Lasts 1 hour.</p>
-		</description>
-		<setters>
-			<set name="category">Adventuring Gear</set>
-			<set name="cost" currency="gp">50</set>
-			<set name="weight" lb="0.5">½ lb.</set>
-			<set name="stackable">true</set>
-		</setters>
-	</element>
 
     <element name="Celestial Nighthawk Circlet" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_ITEM_CELESTIAL_NIGHTHAWK_CIRCLET">
 		<supports>Ranger</supports>
