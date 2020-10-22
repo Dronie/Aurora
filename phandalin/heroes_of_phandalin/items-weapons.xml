@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.12">
+		<update version="0.0.13">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -147,7 +147,8 @@ When adding items:
 		</setters>
 	</element>
 
-	<element name="Quake Hammer" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_MAGIC_ITEM_QUAKE_HAMMER">
+	<element name="Quake Hammer" type="Weapon" source="Heroes of Phandalin" id="ID_CN_HOP_WEAPON_QUAKE_HAMMER">
+	<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
 		<description>
 			<p>A <strong>Quake Hammer</strong> is a highly advanced hybrid mix of the almighty warhammer and newly developed seismic gunpownder charges. On it's own, the Hammer is powerful. It is able to fold enemies in two with powerful smashes capable of leveling plate armor, large beasts such as horses and even the most heaviy fortified foes.</p>
 			<p class="indent">Roughly the same length as a greatsword, the quake hammer contains - along it's shaft - two seperate grips including a guard for the off hand on the lower half. The hammerhead has two clear parts: a simple, square, flattened end for regular usage and then another more intricate end which is dome-like in construction compiled of several rings, all with the abilty to rotate freely. When the small circular heatch is opened at the apex of the dome and a charge is inserted, the Quake Hammer can activate the explosive and channel the released energy into the next attack, triggering upon impact of the head meeting a solid object.</p>
@@ -163,13 +164,13 @@ When adding items:
 			<set name="versatile">1d10</set>
 			<set name="type" addition="warhammer">Weapon</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
-			<set name="category">Magic Weapons</set>
+			<set name="category">Weapons</set>
 			<set name="rarity">very rare</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_WARHAMMERS</set>
+			<set name="weapon">Warhammer</set>
 		</setters>
 	</element>
 
-	<element name="Smoke and Fire Shortbow" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_WEAPON_SMOKE_AND_FIRE_SHORTBOW">
+	<element name="Smoke and Fire Shortbow" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_MAGIC_ITEM_SMOKE_AND_FIRE_SHORTBOW">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
 		<description>
 			<p>This bow was forged from quicksilver by Gnomish Artificers. It includes two small pouches, one on either side of the grip, each of which contains a unique bow string. Additionally the bow has two crystals inlaid under the grip which, when held, are positioned under the index finger and middle finger.</p>
@@ -194,7 +195,7 @@ When adding items:
 			<set name="attunement">true</set>
 			<set name="damage" type="piercing">1d6</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_BOWS</set>
+			<set name="weapon">Shortbow</set>
 		</setters>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" />
