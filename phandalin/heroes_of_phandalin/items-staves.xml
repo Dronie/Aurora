@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Staves of Phandalin</name>
+        <description>Staves discovered by the Heroes of Phandalin on their adventures.</description>
+		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
+        <update version="0.0.1">
+            <file name="items-staves.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/items-staves.xml" />
+        </update>
+    </info>
+    
+    <append id="ID_WOTC_LMOP_MAGIC_ITEM_STAFF_OF_DEFENSE">
+        <rules>
+            <grant type="Spell" id="ID_PROFICIENCY_SKILL_STEALTH" />
+        </rules>
+    </append>
+    <rules>
+        <grant type="Spell" id="ID_PHB_SPELL_SHIELD" />
+        <grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" />
+    </rules>
+    
+</elements>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Armour of Phandalin</name>
+        <update version="0.0.1">
+        <description>Trinkets and misc items discovered by the Heroes of Phandalin on their adventures.</description>
+		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
+            <file name="items-armour.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/items-armour.xml" />
+        </update>
+    </info>
+    
+    <element name="Glamoured Studded Leather" type="Armor" source="Heroes of Phandalin" id="ID_CN_HOP_ARMOR_GLAMOURED_STUDDED_LEATHER">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+        <description>
+			<p>While wearing this armour, you gain a +1 bonus to AC. You can also use a bonus action to speak the armour's command word and cause the armour to assume the appearance of a normal set of clothing or some other kind of armour. You decide what it looks like, including colour, style, and accessories, but the armour retains it's normal bulk and weight. The illusory appearence lasts until you use this property again or remove the armour.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">45</set>
+			<set name="weight" lb="13">13 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">12 + Dex modifier</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
+            <set name="rarity">rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+    
+</elements>

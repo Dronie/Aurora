@@ -7,10 +7,10 @@ When adding items:
 -->
 <elements>
 	<info>
-		<name>Heroes of Phandalin</name>
+		<name>Wands of Phandalin</name>
 		<description>Wands discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="items-wands.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-wands.xml"/>
 		</update>
 	</info>
@@ -18,16 +18,14 @@ When adding items:
 	<element name="Wand of Burning Hands" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_DMG_MAGIC_ITEM_WAND_OF_BURNING_HANDS">
 		<description>
 			<p>This wand has 7 charges. While holding it, you can expend 1 charge as an action to cast the <em>burning hands</em> spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</p>
-			<p>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
+			<p class= "indent">The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
 		</description>
 		<setters>
 			<set name="category">Wands</set>
-			<set name="attack">3d6</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="1">1 lb.</set>
 			<set name="type">Wand</set>
 			<set name="slot">onehand</set>
-			<set name="range">Self (15-foot cone)</set>
 			<set name="rarity">Uncommon</set>
 			<set name="charges">7</set>
 		</setters>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Wondrous Items of Phandalin</name>
+        <description>Trinkets and misc items discovered by the Heroes of Phandalin on their adventures.</description>
+		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
+        <update version="0.0.1">
+            <file name="items-gear.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/items-gear.xml" />
+        </update>
+    </info>
+    
+    <element name="Potion of Heroism" type="Item" source="Heroes of Phandalin" id="ID_CN_HOP_ITEM_POTION_OF_HEROISM">
+		<description>
+            <p>This blue potion bubbles and steams as if boiling.</p>
+			<p class="indent">Upon consumption, you gain 10 temporary hit points and fall under the effects of the <em>bless</em> spell. Lasts 1 hour.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+    <element name="Celestial Nighthawk Circlet" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_ITEM_CELESTIAL_NIGHTHAWK_CIRCLET">
+		<suports>Ranger</supports>
+		<description>
+			<p>This circlet is made of wood carved with feathers, a small stone in the shape of a crescent moon is inlaid over the forhead.</p>
+			<p class="indent"><strong>Once per day</strong> you can concentrate on making a ranged attack. When you do, the moon begins to glow with a dim light. The magic imbues your weapon with Celestial energy and <strong>turns any hit into a critical hit</strong>.</p>
+			<p class="indent">If you roll a 20 when your weapon is charged in this way, you deal an extra <strong>1d10 radiant damage</strong>.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Cockatoo Coin Pouch" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_ITEM_COCKATOO_COIN_POUCH">
+		<description>
+			<p>This pouch has been decorated to resemble a cockatoo and produces occational, soft, chirping sounds. The pouch can hold up to 1,000 coins, but weights 1 pound, regardless of its contents. It becomes bound to you when you speak it's command word. If the pouch is already bound to a different creature, that creature needs to speak the command work first to break it's bond to the pouch.</p>
+			<p class="indent"> When a creature that isn't you opens the coin pouch it gives off a loud shrieking, audible from as far away as 300 feet, until you colse the pouch.</p>
+			<p class="indent">Objects placed in the pouch which aren't coins come out shredded or battered, as if pecked apart.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="White Dragon Cape" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_ITEM_WHITE_DRAGON_CAPE">
+		<description>
+			<p>You have resistance to cold damage while wearing this cape.</p>
+		</description>
+		<setters>
+			<set name="keywords">other</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">shoulders</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+    
+</elements>
