@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.15">
+		<update version="0.0.16">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -54,6 +54,7 @@ When adding items:
 			<set name="type" addition="gauntlet">Weapon</set>
 			<set name="attunement">false</set>
 			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED</set>
 		</setters>
 	</element>
 
