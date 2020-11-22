@@ -56,6 +56,11 @@ When adding items:
 			<set name="damage" type="piercing">1d6</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED</set>
 		</setters>
+		<append id="ID_CN_HOP_MAGIC_WEAPON_POISON_DART_GAUNTLET">
+ 			<rules>
+    			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED" />
+  			</rules>
+		</append>
 	</element>
 
 	<element name="Hawkmoon Longbow" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_MAGIC_HAWKMOON_LONGBOW">
