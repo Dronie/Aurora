@@ -2,10 +2,10 @@
 <elements>
     <info>
         <name>Armour of Phandalin</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
         <description>Trinkets and misc items discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-            <file name="items-armour.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/items-armour.xml" />
+            <file name="items-armour.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-armour.xml" />
         </update>
     </info>
     

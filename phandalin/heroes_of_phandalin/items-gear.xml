@@ -5,8 +5,8 @@
         <name>Wondrous Items of Phandalin</name>
         <description>Trinkets and misc items discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-        <update version="0.0.3">
-            <file name="items-gear.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/items-gear.xml" />
+        <update version="0.0.4">
+            <file name="items-gear.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-gear.xml" />
         </update>
     </info>
 

@@ -4,8 +4,8 @@
         <name>Staves of Phandalin</name>
         <description>Staves discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-        <update version="0.0.1">
-            <file name="items-staves.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/items-staves.xml" />
+        <update version="0.0.2">
+            <file name="items-staves.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-staves.xml" />
         </update>
     </info>
     
