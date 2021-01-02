@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.21">
+		<update version="0.0.22">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -233,7 +233,7 @@ When adding items:
 	</element>
 
 	<element name="Soulshard" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_MAGIC_ITEM_SOULSHARD">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_GROUP_DAGGERS</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_GROUP_DAGGERS</supports>
 		<description>
 			<p>This magical obsidian dagger has three white crystals inlaid in the hilt and a blade that never needs sharpening. It seems to exude an aura of malice.</p>
 			<p class="indent">When you hit with a melee attack with this weapon you deal an extra 1d6 necrotic damage. You heal an amount equal half to the necrotic damage dealt.</p>
