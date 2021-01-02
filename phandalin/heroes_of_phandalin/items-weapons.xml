@@ -232,7 +232,7 @@ When adding items:
 		</setters>
 	</element>
 
-	<element name="Soulshard" type="Magic Weapon" source="Heroes of Phandalin" id="ID_CN_HOP_MAGIC_WEAPON_SOULSHARD">
+	<element name="Soulshard" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_MAGIC_ITEM_SOULSHARD">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_GROUP_DAGGERS</supports>
 		<description>
 			<p>This magical obsidian dagger has three white crystals inlaid in the hilt and a blade that never needs sharpening. It seems to exude an aura of malice.</p>
