@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.20">
+		<update version="0.0.21">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
