@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.24">
+		<update version="0.0.25">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -262,8 +262,8 @@ When adding items:
 			</table>
 		</description>
 
-		<sheet>
-			This is a test
+		<sheet display="true">
+			<description>This is a test</description>
 		</sheet>
 
 		<setters>
