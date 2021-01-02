@@ -243,23 +243,6 @@ When adding items:
 			<p class="indent"><em>Leveling Up</em>: The first time you reduce a creature to 0hp with this weapon record 1 kill at the current level, after a short or long rest the weapon levels up to the next level.</p>
 			<p class="indent"><strong>Healing</strong>: Whenever you damage an opponent with a <em>melee</em> attack you can heal by half the amount of necrotic damage the dagger deals up to your hit point maximum. This healing ablilty will not restore any temporary hit points.</p>
 			<p class="indent"><strong>Weapon Levels</strong></p>
-			<table>
-				<thead>
-					<tr><td>Level</td><td>Damage</td><td>Kill</td><td>Rest</td><td>Level Acheived</td></tr>
-				</thead>
-				<tr><td>Base (0)</td><td>1d4 (peircing damage) + 1d6 (necrotic damage) + Str/Dex Modifier</td><td> </td><td> </td><td> </td></tr>
-				<tr><td>Rare (1)</td><td>1d4 (peircing damage) + 2d6 (necrotic damage) + Str/Dex Modifier</td><td>-</td><td>-</td><td>-</td></tr>
-				<tr><td>Very Rare (2)</td><td>1d4 (peircing damage) + 3d6 (necrotic damage) + Str/Dex Modifier</td><td>-</td><td>-</td><td>-</td></tr>
-				<tr><td>Legendary (3)</td><td>1d4 (peircing damage) + 4d6 (necrotic damage) + Str/Dex Modifier</td><td>-</td><td>-</td><td>-</td></tr>
-			</table>
-			<p class="indent"><strong>Weapon Level Duration</strong></p>
-			<table>
-				<thead>
-					<tr><td> </td><td>Result</td></tr>
-				</thead>
-				<tr><td>1d4 Roll</td><td>---</td></tr>
-				<tr><td>Kill within 24hrs</td><td>---</td></tr>
-			</table>
 		</description>
 		<setters>
 			<set name="keywords">dagger</set>
