@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.19">
+		<update version="0.0.20">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -268,7 +268,7 @@ When adding items:
 			<set name="damage" type="piercing">1d4</set>
 			<set name="type" addition="dagger">Weapon</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE</set>
-			<set name="category">Weapons</set>
+			<set name="category">Magic Weapons</set>
 			<set name="rarity">legendary</set>
 			<set name="weapon">Dagger</set>
 			<set name="attunement">true</set>
