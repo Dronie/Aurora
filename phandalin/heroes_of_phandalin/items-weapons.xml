@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.28">
+		<update version="0.0.29">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -94,7 +94,8 @@ When adding items:
 			<p class="indent"><strong>Ignite:</strong> When attuned, and if both Smoke and Fire are equipped, you may use a bonus action to strike them together and ignite them. Once ignited they deal and additional 1d4 fire damage.</p>
 			<p class="indent"><strong>Conceal:</strong> When attuned, this weapon has two charges that it regains each day at sunset. Using an action you can expend one of the charges to cast the spell Fog Cloud on this weapon. The cloud will remain up to and hour and remains centered on your weapon for the duration.</p>
 		</description>
-		<sheet display="false"/>
+		<sheet display="false">
+		</sheet>
 		<setters>
 			<set name="keywords">handaxe</set>
 			<set name="category">Magic Weapons</set>
@@ -120,7 +121,8 @@ When adding items:
 			<p class="indent"><strong>Ignite:</strong> When attuned, and if both Smoke and Fire are equipped, you may use a bonus action to strike them together and ignite them. Once ignited they deal and additional 1d4 fire damage.</p>
 			<p class="indent"><strong>Reveal:</strong> When attuned, this weapon has two charges that it regains each day at sunrise. Using an action you can expend one of the charges to cast the spell light on this weapon. The light will remain up to and hour and remains centered on your weapon for the duration.</p>
 		</description>
-		<sheet display="false"/>
+		<sheet display="false">
+		</sheet>
 		<setters>
 			<set name="keywords">handaxe</set>
 			<set name="category">Magic Weapons</set>
