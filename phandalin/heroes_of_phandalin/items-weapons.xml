@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.30">
+		<update version="0.0.31">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -37,7 +37,7 @@ When adding items:
 		</setters>
 	</element>
 
-	<element name="Poison Dart Gauntlet" type="Weapon" source="Heroes of Phandalin" id="ID_CN_HOP_MAGIC_WEAPON_POISON_DART_GAUNTLET">
+	<element name="Poison Dart Gauntlet" type="Weapon" source="Heroes of Phandalin" id="ID_CN_HOP_WEAPON_POISON_DART_GAUNTLET">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
 		<description>
 			<p>This gauntlet has three small openings set into a raised piece on the top. It contains three poison darts that can be fired by pressing a small button on the underside of the gauntlet. The craftmanship is such that this can be operated with one hand. You may only fire this weapon if you have a free hand to press the button. For example if you are wielding two melee weapons then you are not able to fire.</p>
@@ -54,13 +54,8 @@ When adding items:
 			<set name="type" addition="gauntlet">Weapon</set>
 			<set name="attunement">false</set>
 			<set name="damage" type="piercing">1d6</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT</set>
 		</setters>
-		<append id="ID_CN_HOP_MAGIC_WEAPON_POISON_DART_GAUNTLET">
- 			<rules>
-    			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED" />
-  			</rules>
-		</append>
 	</element>
 
 	<element name="Hawkmoon Longbow" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_MAGIC_HAWKMOON_LONGBOW">
