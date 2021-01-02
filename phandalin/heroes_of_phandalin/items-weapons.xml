@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.29">
+		<update version="0.0.30">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -94,8 +94,6 @@ When adding items:
 			<p class="indent"><strong>Ignite:</strong> When attuned, and if both Smoke and Fire are equipped, you may use a bonus action to strike them together and ignite them. Once ignited they deal and additional 1d4 fire damage.</p>
 			<p class="indent"><strong>Conceal:</strong> When attuned, this weapon has two charges that it regains each day at sunset. Using an action you can expend one of the charges to cast the spell Fog Cloud on this weapon. The cloud will remain up to and hour and remains centered on your weapon for the duration.</p>
 		</description>
-		<sheet display="false">
-		</sheet>
 		<setters>
 			<set name="keywords">handaxe</set>
 			<set name="category">Magic Weapons</set>
@@ -121,8 +119,6 @@ When adding items:
 			<p class="indent"><strong>Ignite:</strong> When attuned, and if both Smoke and Fire are equipped, you may use a bonus action to strike them together and ignite them. Once ignited they deal and additional 1d4 fire damage.</p>
 			<p class="indent"><strong>Reveal:</strong> When attuned, this weapon has two charges that it regains each day at sunrise. Using an action you can expend one of the charges to cast the spell light on this weapon. The light will remain up to and hour and remains centered on your weapon for the duration.</p>
 		</description>
-		<sheet display="false">
-		</sheet>
 		<setters>
 			<set name="keywords">handaxe</set>
 			<set name="category">Magic Weapons</set>
@@ -245,8 +241,9 @@ When adding items:
 			<p class="indent"><strong>Attunement</strong>: You must spend at least 1 hour getting to know this weapon, this can be done during either a short or long rest. If you are separted from this weapon by more than 100ft. or for more than 1 day your attunement is lost. Until this weapon is attuned to you it behaves like an ordinary dagger.</p>
 			<p class="indent"><strong>Leveling Up and Down</strong>: When you first level this weapon up roll 1d4, this is how many days the level lasts for. Each time you reduce a creature to 0hp with this weapon the duration resets. Each time the duration expires the weapon drops by 1 level.</p>
 			<p class="indent"><em>Leveling Up</em>: The first time you reduce a creature to 0hp with this weapon record 1 kill at the current level, after a short or long rest the weapon levels up to the next level.</p>
-			<p class="indent"><strong>Healing</strong>: Whenever you damage an opponent with a <em>melee</em> attack you can heal by half the amount of necrotic damage the dagger deals up to your hit point maximum. This healing ablilty will not restore any temporary hit points.</p>
-			<p class="indent"><strong>Weapon Levels</strong></p>
+			<div class="reference">
+				<div element="ID_CN_HOP_SUPPORT_SOULSHARD_LEVELS" />
+			</div>
 		</description>
 
 		<sheet display="true">
@@ -265,6 +262,28 @@ When adding items:
 			<set name="weapon">Dagger</set>
 			<set name="attunement">true</set>
 		</setters>
+	</element>
+
+	<element name="Levels" type="Support" source="Heroes of Phandalin" id="ID_CN_HOP_SUPPORT_SOULSHARD_LEVELS">
+		<description>
+			<table>
+				<thead>
+					<tr><td>Level</td><td>Damage</td><td>Kill</td><td>Rest</td><td>Level Acheived</td></tr>
+				</thead>
+				<tr><td>Base (0)</td><td>1d4 (peircing damage) + 1d6 (necrotic damage) + Str/Dex Modifier</td><td> </td><td> </td><td> </td></tr>
+				<tr><td>Rare (1)</td><td>1d4 (peircing damage) + 2d6 (necrotic damage) + Str/Dex Modifier</td><td>-</td><td>-</td><td>-</td></tr>
+				<tr><td>Very Rare (2)</td><td>1d4 (peircing damage) + 3d6 (necrotic damage) + Str/Dex Modifier</td><td>-</td><td>-</td><td>-</td></tr>
+				<tr><td>Legendary (3)</td><td>1d4 (peircing damage) + 4d6 (necrotic damage) + Str/Dex Modifier</td><td>-</td><td>-</td><td>-</td></tr>
+			</table>
+			<p class="indent"><strong>Weapon Level Duration</strong></p>
+			<table>
+				<thead>
+					<tr><td> </td><td>Result</td></tr>
+				</thead>
+				<tr><td>1d4 Roll</td><td>---</td></tr>
+				<tr><td>Kill within 24hrs</td><td>---</td></tr>
+			</table>
+		</description>
 	</element>
 
 </elements>
