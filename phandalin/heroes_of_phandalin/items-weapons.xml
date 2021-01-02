@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.32">
+		<update version="0.0.33">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -53,7 +53,7 @@ When adding items:
 			<set name="rarity">artifact</set>
 			<set name="attunement">false</set>
 			<set name="damage" type="piercing">1d6</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_POISON_DART_GAUNTLET</set>
 		</setters>
 	</element>
 
@@ -257,6 +257,8 @@ When adding items:
 		</setters>
 	</element>
 
+	<!-- Support -->
+
 	<element name="Levels" type="Support" source="Heroes of Phandalin" id="ID_CN_HOP_SUPPORT_SOULSHARD_LEVELS">
 		<description>
 			<table>
@@ -278,5 +280,12 @@ When adding items:
 			</table>
 		</description>
 	</element>
+
+	<!-- Proficiencies -->
+
+	<element name="Weapon Proficiency (Poison Dart Gauntlet)" type="Proficiency" source="Heroes of Phandalin" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_POISON_DART_GAUNTLET">
+		<supports>Weapon, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+	</element>
+
 
 </elements>
