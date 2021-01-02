@@ -10,7 +10,7 @@ When adding items:
 		<name>Weapons of Phandalin</name>
 		<description>Weapons discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-		<update version="0.0.31">
+		<update version="0.0.32">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-weapons.xml"/>
 		</update>
 	</info>
@@ -51,7 +51,6 @@ When adding items:
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="range">30/120</set>
 			<set name="rarity">artifact</set>
-			<set name="type" addition="gauntlet">Weapon</set>
 			<set name="attunement">false</set>
 			<set name="damage" type="piercing">1d6</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT</set>
@@ -163,7 +162,6 @@ When adding items:
 			<set name="slot">onehand</set>
 			<set name="damage" type="bludgeoning">1d8</set>
 			<set name="versatile">1d10</set>
-			<set name="type" addition="warhammer">Weapon</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
 			<set name="category">Weapons</set>
 			<set name="rarity">very rare</set>
