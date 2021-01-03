@@ -5,7 +5,7 @@
         <name>Wondrous Items of Phandalin</name>
         <description>Trinkets and misc items discovered by the Heroes of Phandalin on their adventures.</description>
 		<author url="http://dnd.chrisnew.co.uk">Chris New</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-gear.xml" url="https://raw.githubusercontent.com/Dronie/Aurora/master/phandalin/heroes_of_phandalin/items-gear.xml" />
         </update>
     </info>
@@ -55,6 +55,23 @@
 			<set name="slot">shoulders</set>
 			<set name="rarity">Uncommon</set>
 		</setters>
+	</element>
+
+	<element name="Fireflower Poinsettias" type="Magic Item" source="Heroes of Phandalin" id="ID_CN_HOP_ITEM_FIREFLOWER_POINSETTIAS">
+		<description>
+			<p>Each bloom, when thrown, makes a Firebolt that bounces toward its target in the style of Mario Bros.</p>
+		</description>
+		<setters>
+			<set name="keywords">other</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
+		</rules>
 	</element>
     
 </elements>
